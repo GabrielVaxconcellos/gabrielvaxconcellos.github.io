@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'arciform Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-teste{
+    display: flex;
+    /* background: rgb(248, 248, 227); */
+}
+.cabecalho-img {
+    background: #ffffff;
+    width: 300px;
+    border-right: #a8a8a8 0.5px solid;
+}
+.cabecalho-img img{
+    width: 80%;
+    margin: 40px;
+}
+.bg-menu{
+    height: 100vh;
+    background:#34bc49;
+    border-right: #a8a8a8 0.5px solid;
+}
+.menu-principal{
+    /* background: tomato; */
+    /* width: 300px; */
+    /* height: 100%; */
+    /* border-radius: 0px 100px 0px 0px; */
+}
+.menu-principal ul{
+    /* padding: 15% 0px 20% 0px; */
+}
+.menu-principal ul li{
+    font-size: 1.2em;
+    /* text-align: center; */
+    padding-top: 15%;
+    padding-left: 35%;
+    color: #fff;
+}
+.menu-principal ul li a{
+    color: #fff;
+    /* font-weight: 600; */
+    text-decoration: none;
+}
+/* CONTEUDO */
+
+.main-conteudo{
+    margin: 0 auto;
+    /* background: cornflowerblue; */
+    padding-top:10%;
+}
+.container-main{
+    /* background: darkgoldenrod; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.container-main h1{
+    font-size: 2em;
+    padding-bottom: 50px;
+    color: #34bc49;
+}
+
+
+.segura-atividade-e-risco{
+    /* background: darkolivegreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+   
+}
+.segura-atividade-e-risco select {
+    /* align-content: space-around; */
+    width: 250px;
+    height: 40px;
+    /* margin: 0 auto; */
+}
+#perigo{
+    text-align: center;
+}
+#profissao{
+    text-align: center;
+}
+.btn-gerar{
+    /* background: chocolate; */
+    text-align: center;
+    padding-top: 5%;
+}
+.btn-gerar .botao{
+    border: none;
+    border-radius: 51%;
+    width: 120px;
+    height: 120px;
+    background: #ffc400;
+    box-shadow: 0px 0px 20px -6px black;
+    text-shadow: darkturquoise 5px solid;
+    font-size: 2em;
+    font-family: 'arciform Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+
+
