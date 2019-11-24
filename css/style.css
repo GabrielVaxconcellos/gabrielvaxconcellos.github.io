@@ -110,13 +110,14 @@ body{
     /* background: #df5e5e; */
     overflow-y:hidden;
 }
-.segura-lista-gerada{
+.segura-lista-gerada1, .segura-lista-gerada2, .segura-lista-gerada3, .segura-lista-gerada4, .segura-lista-gerada5, .segura-lista-gerada6, .segura-lista-gerada7, .segura-lista-gerada8, .segura-lista-gerada9, .segura-lista-gerada10{
     display: flex;
     border: #a8a8a8 solid 1px;
     border-radius: 10px;
     height: 200px;
     /* background: #ffc400; */
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 20%;
     cursor: pointer;
     
@@ -141,6 +142,33 @@ body{
 .text-item-epi p{
     font-size: 1.2em;
     padding: 10px;
+}
+.segura-btn-lista-gerada{
+    position: relative;
+    text-align: center;
+    margin: 3% 0 3% 20%;
+}
+.btn-lista-gerada{
+    background: #ffc400;
+    padding: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'arciform Sans';
+}
+/* js lista gerada de epi */
+.segura-lista-gerada-verde{
+    display: flex;
+    border: #34bc49 solid 1px;
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    cursor: pointer;
+    color: #34bc49;
 }
 
 
