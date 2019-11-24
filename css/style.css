@@ -21,6 +21,7 @@ body{
     height: 100vh;
     background:#34bc49;
     border-right: #a8a8a8 0.5px solid;
+    position: fixed;
 }
 .menu-principal{
     /* background: tomato; */
@@ -44,11 +45,12 @@ body{
     text-decoration: none;
 }
 /* CONTEUDO */
-
+/* Posicionmento pode mudar se alterar essa margin-left */
 .main-conteudo{
     margin: 0 auto;
     /* background: cornflowerblue; */
     padding-top:10%;
+    margin-left: 20%;
 }
 .container-main{
     /* background: darkgoldenrod; */
@@ -99,6 +101,46 @@ body{
     font-size: 2em;
     font-family: 'arciform Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
+}
+
+/* GERAR LISTA */
+.container-gerar-lista{
+    margin: 0 auto;
+    width: 70%;
+    /* background: #df5e5e; */
+    overflow-y:hidden;
+}
+.segura-lista-gerada{
+    display: flex;
+    border: #a8a8a8 solid 1px;
+    border-radius: 10px;
+    height: 200px;
+    /* background: #ffc400; */
+    margin-top: 20px;
+    margin-left: 20%;
+    cursor: pointer;
+    
+}
+.img-item-epi{
+    padding: 10px;
+    flex: 1;
+    margin-left: 4%;
+}
+.img-item-epi img{
+    /* width: 100%; */
+    max-width: 180px;
+}
+.text-item-epi{
+    flex: 3;
+}
+.text-item-epi h1{
+    font-size: 2em;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.text-item-epi p{
+    font-size: 1.2em;
+    padding: 10px;
 }
 
 
