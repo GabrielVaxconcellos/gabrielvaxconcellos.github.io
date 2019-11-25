@@ -23,15 +23,15 @@ body{
     border-right: #a8a8a8 0.5px solid;
     position: fixed;
 }
-.menu-principal{
-    /* background: tomato; */
+/* .menu-principal{
+    background: tomato; */
     /* width: 300px; */
     /* height: 100%; */
-    /* border-radius: 0px 100px 0px 0px; */
-}
-.menu-principal ul{
-    /* padding: 15% 0px 20% 0px; */
-}
+    /* border-radius: 0px 100px 0px 0px;
+} */
+/* .menu-principal ul{
+    padding: 15% 0px 20% 0px;
+} */
 .menu-principal ul li{
     font-size: 1.2em;
     /* text-align: center; */
@@ -274,6 +274,33 @@ body{
 .segura-botoes-gerar{
     display: flex;
     justify-content: flex-end;
+}
+/* NR6 */
+.pdf-nr6{
+    width: 100%;
+    height: 100vh;
+    margin-left: 300px;
+    background: #a8a8a8;
+}
+.pdf-nr6 embed{
+    height: 1000vh;
+}
+/* Lista - menu */
+
+.lista-empresa{
+     /* background: tomato; */
+   
+}
+.lista-empresa button{
+    background: #fff;
+    font-family:'arciform Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 100px 50px;
+    border: #a8a8a8 solid 2px;
+    border-radius: 10px;
+    box-shadow:  0 4px 4px 0 rgb(0, 0, 0, .3);
+    font-size: 1.8em;
 }
 
 
